@@ -3,6 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
+
     <modules>
         <module>employee-insert</module>
         <module>employee-remove</module>
@@ -12,12 +13,14 @@
         <module>employee-list-department</module>
         <module>employee-monolithic</module>
     </modules>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.2.1.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.javaseniorevandrosouza</groupId>
     <artifactId>java-senior-evandro-souza</artifactId>
     <version>0.0.1-SNAPSHOT</version>
