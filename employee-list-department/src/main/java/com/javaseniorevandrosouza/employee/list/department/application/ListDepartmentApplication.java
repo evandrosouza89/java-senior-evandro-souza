@@ -12,10 +12,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EntityScan("com.javaseniorevandrosouza.employee.data.entity")
 @EnableJpaRepositories("com.javaseniorevandrosouza.employee.data")
 @SpringBootApplication
-public class SearchDepartmentApplication {
+public class ListDepartmentApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SearchDepartmentApplication.class, args);
+        SpringApplication.run(ListDepartmentApplication.class, args);
     }
 
 }
