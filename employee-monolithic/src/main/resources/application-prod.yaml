@@ -7,7 +7,7 @@ spring:
       database: POSTGRESQL
       show-sql: true
       hibernate:
-        ddl-auto: update
+        ddl-auto: create-drop
   main:
     allow-bean-definition-overriding: true
 server:
