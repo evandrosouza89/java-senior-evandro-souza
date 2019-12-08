@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>employee-monolythic</artifactId>
+    <artifactId>employee-monolithic</artifactId>
 
     <dependencies>
         <dependency>

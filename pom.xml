@@ -10,7 +10,7 @@
         <module>employee-data</module>
         <module>employee-common</module>
         <module>employee-list-department</module>
-        <module>employee-monolythic</module>
+        <module>employee-monolithic</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
