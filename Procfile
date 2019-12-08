@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -Dspring.profiles.active=prod -jar employee-monolythic/target/employee-monolithic-0.0.1-SNAPSHOT.jar
+web: java -Dserver.port=$PORT -Dspring.profiles.active=prod -jar employee-monolithic/target/employee-monolithic-0.0.1-SNAPSHOT.jar
