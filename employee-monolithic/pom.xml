@@ -47,7 +47,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.javaseniorevandrosouza.employee.monolithic.application.MonolithicApplication</mainClass>
+                    <mainClass>com.javaseniorevandrosouza.employee.MonolithicApplication</mainClass>
                     <layout>ZIP</layout>
                 </configuration>
                 <executions>
