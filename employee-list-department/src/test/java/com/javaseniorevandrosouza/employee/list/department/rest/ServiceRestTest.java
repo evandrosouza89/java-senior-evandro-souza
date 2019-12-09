@@ -103,7 +103,7 @@ public class ServiceRestTest {
             return this;
         }
 
-        TestSpec givenAValidBusinessResponse() {
+        TestSpec givenAValidBusinessResponse() throws ServiceException {
             EmployeeRestResponse employeeRestResponse1 = EmployeeRestResponse.builder()
                     .name("name1")
                     .email("email1")
