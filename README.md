@@ -22,8 +22,9 @@ It's a micro-services ready, CRUD example based on a employee/department use cas
 
 # Stack:
 
- - Spring boot for the container 
- - Sring data/hibernate for persistence 
+ - Spring boot as application container 
+ - Spring data/hibernate for persistence
+ - Mapstruct for object mapping
  - Postgres database in production / H2 database for test
  - Swagger for documentation
  - Spring cache for cached operations
