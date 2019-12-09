@@ -2,7 +2,7 @@
 
 A Spring Boot CRUD  example project.
 
-It's a micro-services ready, CRUS example based on a employee/department use case.
+It's a micro-services ready, CRUD example based on a employee/department use case.
 
 # Business rules:
 
