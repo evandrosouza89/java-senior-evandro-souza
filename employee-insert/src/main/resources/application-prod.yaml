@@ -3,11 +3,13 @@ spring:
     url: ${JDBC_DATABASE_URL}
     username: ${JDBC_DATABASE_USERNAME}
     password: ${JDBC_DATABASE_PASSWORD}
-    jpa:
-      database: POSTGRESQL
-      show-sql: true
-      hibernate:
-        ddl-auto: update
+  main:
+    allow-bean-definition-overriding: true
+
+spring.jpa:
+  database: POSTGRESQL
+  hibernate.ddl-auto: update
+  show-sql: true
 
 server:
   port: 8080
